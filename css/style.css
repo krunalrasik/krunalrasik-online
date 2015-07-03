@@ -81,6 +81,12 @@ ul.side-nav.fixed li.active {
   }
 }
 
+.caption {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
 .index .home-heading {
   margin-bottom: 0;
 }
