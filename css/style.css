@@ -32,7 +32,7 @@ li span {
   padding-left: 10px;
 }
 
-.about li i {
+.about li i, .process li i {
   display: table-cell;
   float: left;
 }
