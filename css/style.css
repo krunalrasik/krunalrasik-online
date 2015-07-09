@@ -107,3 +107,15 @@ ul.side-nav.fixed li.active {
 .about .card.medium, .about .card.medium .card-content {
   height: auto;
 }
+
+.process .collapsible-header {
+  height: 5rem;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.process .collapsible-body ul {
+  margin: 0;
+  padding: 0 2rem 2rem;
+}

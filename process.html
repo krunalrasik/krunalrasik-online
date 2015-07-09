@@ -97,63 +97,94 @@
         <div class="section">
           <h3 class="teal-text thin">Analysis</h3>
           <div class="divider"></div><br />
-          <h5 class="teal-text teal-darken-4 light">Competitive Analysis</h5>
-          Starbucks and Dunkin' Donuts are direct competitors, while the prepared foods section of the local super market could be an indirect competitor to both of them - especially if its coffee is good.
-          <ul>
+          <ul class="collapsible" data-collapsible="accordion">
             <li>
-              <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
-              <span>
-                Prioritize key competitors and emerging competitors
-              </span>
+              <div class="collapsible-header teal-text">Competitive Analysis</div>
+              <div class="collapsible-body">
+                <p>
+                  Starbucks and Dunkin' Donuts are direct competitors, while the prepared foods section of the local super market could be an indirect competitor to both of them - especially if its coffee is good.
+                </p>
+                <ul>
+                  <li>
+                    <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
+                    <span>
+                      Prioritize key competitors and emerging competitors
+                    </span>
+                  </li>
+                  <li>
+                    <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
+                    <span>
+                      Understand strenghts and weaknesses of the competitors
+                    </span>
+                  </li>
+                  <li>
+                    <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
+                    <span>
+                      Find out key brand differentiators
+                    </span>
+                  </li>
+                  <li>
+                    <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
+                    <span>
+                      Review economic environment (what's your users' purchasing power?)
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
-              <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
-              <span>
-                Understand strenghts and weaknesses of the competitors
-              </span>
+              <div class="collapsible-header teal-text">Mental Model</div>
+              <div class="collapsible-body">
+                <p>
+                  Having a solid, data-driven 'I-didn't-make-it-up' roadmap is inavitable for making design choices.
+                  <br /><br />
+                  <img class="section responsive-img" src="img/mentalmodel.png" />
+                </p>
+                <ul>
+                  <li>
+                    <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
+                    <span>
+                      Understand users deeply
+                    </span>
+                  </li>
+                  <li>
+                    <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
+                    <span>
+                      So deeply that you could live their lives, walk in their shoes and make decisions exactly like they would
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
-              <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
-              <span>
-                Find out key brand differentiators
-              </span>
+              <div class="collapsible-header teal-text">Task Analysis</div>
+              <div class="collapsible-body">
+                <p>
+                  Identify user's thought process and desired reactions towards a particular taskflow segment.
+                  <br /><br />
+                  <img class="section responsive-img" src="img/taskanalysis.png" />
+                </p>
+              </div>
             </li>
             <li>
-              <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
-              <span>
-                Review economic environment (what's your users' purchasing power?)
-              </span>
+              <div class="collapsible-header teal-text">Red Route Analysis</div>
+              <div class="collapsible-body">
+                <p>
+                  Consider all the critical and frequent user activities (read goals) on your app. Give these activities all the importance needed and earn healty bread and butter!
+                  <br /><br />
+                  <img class="section responsive-img" src="img/redroute.png" />
+                  <br /><br />
+                  Defining crisp red routes for your users is like allowing them to travel from Point A to Point B without any obstacles.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header teal-text">Story Boards</div>
+              <div class="collapsible-body">
+
+              </div>
             </li>
           </ul>
-          <br />
-          <h5 class="teal-text teal-darken-4 light">Mental Model</h5>
-          Having a solid, data-driven 'I-didn't-make-it-up' roadmap is inavitable for making design choices.
-          <br /><br />
-          <img class="section responsive-img" src="img/mentalmodel.png" />
-          <ul>
-            <li>
-              <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
-              <span>
-                Understand users deeply
-              </span>
-            </li>
-            <li>
-              <i class="tiny mdi-image-lens teal-text text-lighten-4"></i>
-              <span>
-                So deeply that you could live their lives, walk in their shoes and make decisions exactly like they would
-              </span>
-            </li>
-          </ul>
-          <br />
-          <h5 class="teal-text teal-darken-4 light">Task Analysis</h5>
-          Identify user's thought process and desired reactions towards a particular taskflow segment.
-          <br /><br />
-          <img class="section responsive-img" src="img/taskanalysis.png" />
-          <br />
-          <h5 class="teal-text teal-darken-4 light">Red route Analysis</h5>
-          Consider all the critical and frequent user activities (read goals) on your app. Give these activities all the importance needed and earn healty bread and butter!
-          <br /><br />
-          <img class="section responsive-img" src="img/redroute.png" />
         </div>
       </div>
     </div>
@@ -163,6 +194,13 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.collapsible').collapsible({
+        accordion : false
+      });
+    });
+  </script>
   <div class="hiddendiv common"></div>
   <div class="drag-target" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
   </body>
