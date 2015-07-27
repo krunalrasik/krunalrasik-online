@@ -119,3 +119,11 @@ ul.side-nav.fixed li.active {
   margin: 0;
   padding: 0 2rem 2rem;
 }
+
+.projects img {
+  border: 1px solid #292929;
+}
+
+.projects .no-border {
+  border: none;
+}
