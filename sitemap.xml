@@ -2,10 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>http://krunalrasik.com</loc>
+  </url>
+  <url>
     <loc>http://krunalrasik.com/index.html</loc>
+  </url>
+  <url>
     <loc>http://krunalrasik.com/about.html</loc>
+  </url>
+  <url>
     <loc>http://krunalrasik.com/process.html</loc>
+  </url>
+  <url>
     <loc>http://krunalrasik.com/skills.html</loc>
+  </url>
+  <url>
     <loc>http://krunalrasik.com/projects.html</loc>
   </url>
 </urlset>
