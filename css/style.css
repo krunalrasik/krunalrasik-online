@@ -66,6 +66,14 @@ li span {
   padding: 0 !important;
 }
 
+.side-nav li {
+  padding: 0;
+}
+
+.side-nav.fixed a {
+  padding: 0 30px;
+}
+
 ul.side-nav.fixed li:first-child {
   margin-bottom: -7px;
 }
